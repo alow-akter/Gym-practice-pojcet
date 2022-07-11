@@ -1,0 +1,110 @@
+.menu-conainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.test {
+
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item li {
+    list-style: none;
+    margin: 5px;
+    padding: 10;
+    font-size: 18px;
+}
+
+.menu-item li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.banner-descripti {
+    margin: 50px;
+}
+
+.banner-text {
+    color: red;
+    font-size: 24px;
+}
+
+.tittle1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.banner-btn {
+    padding: 18px 38px;
+    background-color: crimson;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.section-2 {
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.tittle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-one {
+    width: 350px;
+    height: 250px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+    margin: 20px;
+}
+
+.card-one:hover {
+    border: 1px solid rgb(184, 31, 31);
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+.gem-icon {
+    width: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
