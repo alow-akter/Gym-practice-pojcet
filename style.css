@@ -108,3 +108,130 @@
 .justify {
     text-align: justify;
 }
+
+.about-container {
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+
+.bewtten {
+    font-size: 20px;
+}
+
+.about-left {
+    width: 700px;
+}
+
+.about-right {
+    width: 700px;
+}
+
+.workout-image {
+    display: flex;
+    margin-top: 50px;
+}
+
+.workout-image img {
+    width: 300px;
+    height: 550px;
+    transform: skewY(-10deg);
+}
+
+.btn-banner {
+    text-decoration: none;
+    color: white;
+}
+
+.bootom {
+    margin-top: 40px;
+}
+
+.workout-containar {
+    width: 600px;
+    height: 200px;
+    background-image: url(./images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(227, 131, 6);
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.woman-gym {
+    display: flex;
+    margin: 50px;
+}
+
+.services-container {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.service-1 {
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgb(18, 17, 17);
+    box-shadow: 10px 10px 30px gray;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.service-img img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.tryit {
+    width: 500px;
+    height: 350px;
+    margin: 0px;
+
+}
+
+h5 {
+    color: crimson;
+}
+
+.batch {
+    position: relative;
+}
+
+.batch-img {
+    width: 50px;
+    top: -35px;
+    left: 330px;
+    position: absolute;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px;
+
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: rgb(243, 11, 11);
+}
